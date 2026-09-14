@@ -17,9 +17,6 @@ load_dotenv()
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 
-if not TOKEN:
-    raise ValueError("Brak DISCORD_TOKEN w pliku .env")
-
 # Kanał głównego panelu ticketów
 TICKET_PANEL_CHANNEL_ID = 1547690637628018788
 
